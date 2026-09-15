@@ -282,3 +282,58 @@ a { color: inherit; text-decoration: none; }
   border: 1px solid var(--border);
   background: #000;
 }
+
+.custom-form-section {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 20px 90px;
+}
+
+.custom-form {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.custom-form label {
+  margin-top: 18px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--text-dim);
+}
+
+.custom-form input,
+.custom-form textarea {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px 14px;
+  color: var(--text);
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.custom-form input:focus,
+.custom-form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.custom-form input[type="file"] {
+  padding: 10px 14px;
+  color: var(--text-dim);
+}
+
+.custom-form textarea {
+  resize: vertical;
+}
+
+.custom-form .btn {
+  margin-top: 28px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  align-self: flex-start;
+}
