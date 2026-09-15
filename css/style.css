@@ -130,6 +130,35 @@ a { color: inherit; text-decoration: none; }
   padding: 14px 16px 0;
 }
 
+.design-options {
+  display: flex;
+  gap: 8px;
+  padding: 10px 16px 0;
+}
+
+.design-options figure {
+  flex: 1;
+  margin: 0;
+  text-align: center;
+}
+
+.design-options img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: #000;
+}
+
+.design-options figcaption {
+  font-size: 0.7rem;
+  color: var(--text-dim);
+  margin-top: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
 .product-card .price {
   padding: 4px 16px 0;
   color: var(--accent);
