@@ -40,7 +40,7 @@
 </section>
 
 <section class="custom-form-section">
-  <form action="https://formspree.io/f/meaqynwj" method="POST" enctype="multipart/form-data" class="custom-form">
+  <form action="https://formspree.io/f/meaqynwj" method="POST" class="custom-form">
 
     <label for="business_name">What's This For? (business, podcast, team, event, personal, etc. — optional)</label>
     <input type="text" id="business_name" name="What's This For">
@@ -57,8 +57,9 @@
     <label for="description">Tell us what you're looking for</label>
     <textarea id="description" name="Description" rows="6" placeholder="What kind of shirts/merch, how many, what colors, any deadlines..." required></textarea>
 
-    <label for="logo">Upload Your Logo (optional)</label>
-    <input type="file" id="logo" name="Logo" accept="image/*,.pdf">
+    <label for="logo_link">Logo Link (optional)</label>
+    <input type="url" id="logo_link" name="Logo Link" placeholder="Paste a Google Drive, Dropbox, or Imgur link">
+    <p class="form-hint">Have a logo file but no link? Just email it to <a href="mailto:ryanbrusher@gmail.com">ryanbrusher@gmail.com</a> after you submit this form, and mention your name so we can match it up.</p>
 
     <button type="submit" class="btn">Submit Inquiry</button>
   </form>
